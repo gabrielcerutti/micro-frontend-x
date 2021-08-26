@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/micro-frontend-x/static/css/main.7f4938f3.css",
+    "main.js": "/micro-frontend-x/static/js/main.829a5741.js",
+    "main.js.map": "/micro-frontend-x/static/js/main.829a5741.js.map",
+    "index.html": "/micro-frontend-x/index.html",
+    "static/css/main.7f4938f3.css.map": "/micro-frontend-x/static/css/main.7f4938f3.css.map",
+    "static/js/main.829a5741.js.LICENSE.txt": "/micro-frontend-x/static/js/main.829a5741.js.LICENSE.txt",
+    "static/media/logo.6ce24c58.svg": "/micro-frontend-x/static/media/logo.6ce24c58.svg"
+  },
+  "entrypoints": [
+    "static/css/main.7f4938f3.css",
+    "static/js/main.829a5741.js"
+  ]
+}
