@@ -45,7 +45,7 @@ const HomePage = (props: { basePath: string | undefined }) => {
           target="_blank"
           rel="noopener noreferrer"
         >
-          ...and also Software Fundamentals!
+          And Software Fundamentals!
         </a>
       </header>
     </div>
