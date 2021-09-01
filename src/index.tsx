@@ -8,7 +8,8 @@ import reportWebVitals from './reportWebVitals';
 ReactDOM.render(
   <React.StrictMode>
     <BrowserRouter>
-      <App basePath="" host="" />
+      {/* Pass an empty basePath if you are not using GitHub Pages and just localhost as a base URL */}
+      <App basePath="/micro-frontend-x" host="" />
     </BrowserRouter>
   </React.StrictMode>,
   document.getElementById('root')

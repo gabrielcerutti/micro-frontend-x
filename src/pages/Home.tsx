@@ -29,7 +29,16 @@ const HomePage = (props: { basePath: string | undefined }) => {
           alt="logo"
         />
         <p>
-          Edit <code>src/App.tsx</code> and save to reload.
+          This Micro-Frontend has its own host in{' '}
+          <a
+            className="App-link"
+            href="https://gabrielcerutti.github.io/micro-frontend-x"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            GitHub Pages
+          </a>{' '}
+          and can be independently developed and deployed.
         </p>
         <a
           className="App-link"
