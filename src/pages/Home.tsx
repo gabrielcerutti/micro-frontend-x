@@ -6,18 +6,15 @@ const HomePage = (props: { basePath: string | undefined }) => {
   return (
     <div>
       <header className="App-header">
-        {/* <div>
-          <h1>Congrats! This is your brand new Micro-Frontend!</h1>
-        </div> */}
         <nav>
           <ul className="App-nav">
             <li>
-              <NavLink className="App-link" to="/pageone">
+              <NavLink className="App-link" to="/page-one">
                 Page One
               </NavLink>
             </li>
             <li>
-              <NavLink className="App-link" to="/pagetwo">
+              <NavLink className="App-link" to="/page-two">
                 Page Two
               </NavLink>
             </li>

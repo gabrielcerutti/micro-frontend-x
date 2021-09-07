@@ -3,6 +3,7 @@ import { Route, Routes } from 'react-router-dom';
 import HomePage from './pages/Home';
 import PageOne from './pages/PageOne';
 import PageTwo from './pages/PageTwo';
+import NotFound from './pages/NotFound';
 
 function App(props: { basePath: string; host: string }) {
   console.log(`BasePath is ${props.basePath}`);
@@ -14,9 +15,10 @@ function App(props: { basePath: string; host: string }) {
   return (
     <div className="Micro-App">
       <Routes basename={props.basePath}>
+        <Route path="page-one" element={<PageOne basePath={basePath}></PageOne>} />
+        <Route path="page-two" element={<PageTwo basePath={basePath}></PageTwo>} />
         <Route path="/" element={<HomePage basePath={basePath}></HomePage>} />
-        <Route path="pageone" element={<PageOne basePath={basePath}></PageOne>} />
-        <Route path="pagetwo" element={<PageTwo basePath={basePath}></PageTwo>} />
+        <Route path="/*" element={<NotFound></NotFound>} />
       </Routes>
     </div>
   );
