@@ -6,13 +6,13 @@ const NotFound = () => {
   return (
     <div>
       <header className="App-header">
-        <h2>Oops! Sorry, Page Not Found</h2>
-        <h3>
+        <h3>Oops! Sorry, Page Not Found</h3>
+        <h4>
           You should probably go back to the{' '}
           <NavLink className="App-link" to="/">
-            Micro-Frontend Home
+            Microfrontend Home
           </NavLink>
-        </h3>
+        </h4>
       </header>
     </div>
   );

@@ -1,8 +1,7 @@
 import { NavLink } from 'react-router-dom';
-import logo from '../logo.svg';
 import '../App.css';
 
-const PageOne = (props: { basePath: string | undefined }) => {
+const PageOne = () => {
   return (
     <div>
       <header className="App-header App-header-pageone">
@@ -15,11 +14,7 @@ const PageOne = (props: { basePath: string | undefined }) => {
             </li>
           </ul>
         </nav>
-        <img
-          src={`${props.basePath !== undefined ? props.basePath : ''}${logo}`}
-          className="App-logo"
-          alt="logo"
-        />
+        <div className="App-header-number">One</div>
         <p>
           Edit <code>src/pages/PageOne.tsx</code> and save to reload.
         </p>

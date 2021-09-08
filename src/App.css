@@ -38,6 +38,11 @@
   background-color: #282c34;
 }
 
+.Micro-App .App-header-number {
+  font-size: calc(180px + 2vmin);
+  color: #f5b348;
+}
+
 .Micro-App .App-header-pagetwo {
   background-color: #282c34;
 }

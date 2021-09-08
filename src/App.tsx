@@ -15,8 +15,8 @@ function App(props: { basePath: string; host: string }) {
   return (
     <div className="Micro-App">
       <Routes basename={props.basePath}>
-        <Route path="page-one" element={<PageOne basePath={basePath}></PageOne>} />
-        <Route path="page-two" element={<PageTwo basePath={basePath}></PageTwo>} />
+        <Route path="page-one" element={<PageOne></PageOne>} />
+        <Route path="page-two" element={<PageTwo></PageTwo>} />
         <Route path="/" element={<HomePage basePath={basePath}></HomePage>} />
         <Route path="/*" element={<NotFound></NotFound>} />
       </Routes>

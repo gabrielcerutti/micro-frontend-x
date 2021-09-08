@@ -18,6 +18,11 @@ const HomePage = (props: { basePath: string | undefined }) => {
                 Page Two
               </NavLink>
             </li>
+            <li>
+              <NavLink className="App-link" to="/this-page-does-not-exist">
+                Not Found
+              </NavLink>
+            </li>
           </ul>
         </nav>
         <img
@@ -42,7 +47,7 @@ const HomePage = (props: { basePath: string | undefined }) => {
           And Software Fundamentals!
         </a>
         <p>
-          This Micro-Frontend has its own host in{' '}
+          This Microfrontend has its own host in{' '}
           <a
             className="App-link"
             href="https://gabrielcerutti.github.io/micro-frontend-x"
@@ -52,6 +57,17 @@ const HomePage = (props: { basePath: string | undefined }) => {
             GitHub Pages
           </a>{' '}
           and can be independently developed and deployed.
+          <br />
+          Check out{' '}
+          <a
+            className="App-link"
+            href="https://create-react-app.dev/docs/deployment"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            this CRA document
+          </a>{' '}
+          for more deployment options.
         </p>
       </header>
     </div>
