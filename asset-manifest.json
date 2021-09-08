@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/micro-frontend-x/static/css/main.acb3a3b1.css",
-    "main.js": "/micro-frontend-x/static/js/main.f35da26c.js",
-    "main.js.map": "/micro-frontend-x/static/js/main.f35da26c.js.map",
+    "main.css": "/micro-frontend-x/static/css/main.579bf5eb.css",
+    "main.js": "/micro-frontend-x/static/js/main.f0fab789.js",
+    "main.js.map": "/micro-frontend-x/static/js/main.f0fab789.js.map",
     "index.html": "/micro-frontend-x/index.html",
-    "static/css/main.acb3a3b1.css.map": "/micro-frontend-x/static/css/main.acb3a3b1.css.map",
-    "static/js/main.f35da26c.js.LICENSE.txt": "/micro-frontend-x/static/js/main.f35da26c.js.LICENSE.txt",
+    "static/css/main.579bf5eb.css.map": "/micro-frontend-x/static/css/main.579bf5eb.css.map",
+    "static/js/main.f0fab789.js.LICENSE.txt": "/micro-frontend-x/static/js/main.f0fab789.js.LICENSE.txt",
     "static/media/logo.500a95d1.svg": "/micro-frontend-x/static/media/logo.500a95d1.svg"
   },
   "entrypoints": [
-    "static/css/main.acb3a3b1.css",
-    "static/js/main.f35da26c.js"
+    "static/css/main.579bf5eb.css",
+    "static/js/main.f0fab789.js"
   ]
 }
